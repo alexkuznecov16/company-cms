@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "strapi",
+      "script": "./node_modules/@strapi/strapi/bin/strapi.js",
+      "args": "start",
+      "env": {
+        "PORT": "1337",
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}
